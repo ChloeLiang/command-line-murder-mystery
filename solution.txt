@@ -1,0 +1,33 @@
+touch solution.txt
+cat hint1
+ls
+cd mystery
+head -n 20 people
+cat ../hint2
+grep "CLUE" crimescene
+cat ../hint3
+head people
+head vehicles
+cat ../hint4
+grep "Annabel" people
+cat ../hint5
+head -n 40 streets/Hart_Place | tail -n 1
+cat interviews/interview-47246024
+head -n 179 streets/Buckingham_Place | tail -n 1
+cat interviews/interview-699607
+cat ../hint6
+head vehicles
+cat ../hint7
+grep -A 5 "L337" vehicles
+cat ../hint8
+cd memberships
+cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Erika Owens"
+cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Heather Billings"
+cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Joe Germuska"
+cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"
+cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jacqui Maher"
+cd ..
+grep "Jeremy Bowers" people
+grep "Jacqui Maher" people
+
+The name of the killer is Jeremy Bowers.
